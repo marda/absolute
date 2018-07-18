@@ -13,6 +13,7 @@ $configurator->setTempDirectory(__DIR__ . '/../temp');
 $loader = $configurator->createRobotLoader();
 
 $loader->addDirectory(__DIR__);
+$loader->addDirectory(__DIR__ . '/../vendor/absolute.app');
 $loader->register();
 
 $configurator->addConfig(__DIR__ . '/config/config.neon');
