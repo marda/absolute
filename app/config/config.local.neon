@@ -1,0 +1,8 @@
+parameters:
+
+
+database:
+  dsn: 'mysql:host=localhost;dbname=praga'
+  user: 'root'
+  password: ''
+  reflection: conventional

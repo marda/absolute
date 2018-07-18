@@ -1,0 +1,15 @@
+parameters:
+
+
+application:
+  mapping:
+    *: Absolute\Module\*\Presenter\*Presenter
+
+
+session:
+  autoStart: true
+  expiration: 14 days
+
+
+services:
+  router: Absolute\Router\RouterFactory::createRouter
