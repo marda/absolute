@@ -13,21 +13,20 @@ $configurator->setTempDirectory(__DIR__ . '/../temp');
 $loader = $configurator->createRobotLoader();
 
 $loader->addDirectory(__DIR__);
-$loader->addDirectory(__DIR__ . '/../module');
 $loader->register();
 
 $configurator->addConfig(__DIR__ . '/config/config.neon');
 $configurator->addConfig(__DIR__ . '/config/config.local.neon');
 
-$files = scandir(__DIR__ . '/../module');
+$files = scandir(__DIR__ . '/../vendor/absolute.app');
 
 foreach ($files as $file)
 {
   if ($file == "." || $file == "..")
     continue;
 
-  if (is_dir(__DIR__ . '/../module/' . $file) && file_exists(__DIR__ . '/../module/' . $file . '/config/config.neon'))
-    $configurator->addConfig(__DIR__ . '/../module/' . $file . '/config/config.neon');
+  if (is_dir(__DIR__ . '/../vendor/absolute.app/' . $file) && file_exists(__DIR__ . '/../vendor/absolute.app/' . $file . '/config/config.neon'))
+    $configurator->addConfig(__DIR__ . '/../vendor/absolute.app/' . $file . '/config/config.neon');
 }
 
 $container = $configurator->createContainer();
