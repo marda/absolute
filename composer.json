@@ -21,11 +21,12 @@
     "latte/latte": "^2.4",
     "tracy/tracy": "^2.4",
     "mpdf/mpdf": "^7.1",
-    "absolute.app/auth": "^1.0",
-    "absolute.app/core": "^1.0",
-    "absolute.app/file": "^1.0",
-    "absolute.app/note": "^1.0",
-    "absolute.app/user": "^1.0"
+    "absolute.app/core": "dev-master",
+    "absolute.app/auth": "dev-master",
+    "absolute.app/core": "dev-master",
+    "absolute.app/file": "dev-master",
+    "absolute.app/note": "dev-master",
+    "absolute.app/user": "dev-master"
   },
   "require-dev": {
     "nette/tester": "^2.0"
