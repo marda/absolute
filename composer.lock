@@ -1,24 +1,27 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec861fc541235011765cc534304c056b",
+    "content-hash": "77bf5022513862b14379b1e44119b798",
     "packages": [
         {
             "name": "absolute.app/auth",
-            "version": "v1.0.0-stable",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marda/absolute-auth.git",
-                "reference": "2a375571e50852def66d32e6b188fb381132a7ab"
+                "reference": "fa8c7d0ee3deb6a1714e06f2f01c87037398219e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marda/absolute-auth/zipball/2a375571e50852def66d32e6b188fb381132a7ab",
-                "reference": "2a375571e50852def66d32e6b188fb381132a7ab",
+                "url": "https://api.github.com/repos/marda/absolute-auth/zipball/fa8c7d0ee3deb6a1714e06f2f01c87037398219e",
+                "reference": "fa8c7d0ee3deb6a1714e06f2f01c87037398219e",
                 "shasum": ""
+            },
+            "require": {
+                "absolute.app/core": "dev-master"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -29,21 +32,79 @@
                 "GPL-3.0"
             ],
             "description": "Absolute/Module/Auth",
-            "time": "2018-07-18T18:23:00+00:00"
+            "time": "2018-07-20T11:30:05+00:00"
         },
         {
-            "name": "absolute.app/note",
-            "version": "v1.0.0-stable",
+            "name": "absolute.app/core",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/marda/absolute-note.git",
-                "reference": "bb25fd2f7d4864945ce2611beb62699e5184172e"
+                "url": "https://github.com/marda/absolute-core.git",
+                "reference": "1ca28d3aca74f821091daf640d5e1d78b2b56b25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marda/absolute-note/zipball/bb25fd2f7d4864945ce2611beb62699e5184172e",
-                "reference": "bb25fd2f7d4864945ce2611beb62699e5184172e",
+                "url": "https://api.github.com/repos/marda/absolute-core/zipball/1ca28d3aca74f821091daf640d5e1d78b2b56b25",
+                "reference": "1ca28d3aca74f821091daf640d5e1d78b2b56b25",
                 "shasum": ""
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "description": "Absolute/Core",
+            "time": "2018-07-18T19:50:06+00:00"
+        },
+        {
+            "name": "absolute.app/file",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marda/absolute-file.git",
+                "reference": "93d47418038c61b2fda2bac0938bc1809b84fea0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marda/absolute-file/zipball/93d47418038c61b2fda2bac0938bc1809b84fea0",
+                "reference": "93d47418038c61b2fda2bac0938bc1809b84fea0",
+                "shasum": ""
+            },
+            "require": {
+                "absolute.app/core": "dev-master"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "description": "Absolute/Module/File",
+            "time": "2018-07-20T10:18:31+00:00"
+        },
+        {
+            "name": "absolute.app/note",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marda/absolute-note.git",
+                "reference": "0863a5129801a61b5971e211a928654a4835be7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marda/absolute-note/zipball/0863a5129801a61b5971e211a928654a4835be7f",
+                "reference": "0863a5129801a61b5971e211a928654a4835be7f",
+                "shasum": ""
+            },
+            "require": {
+                "absolute.app/core": "dev-master",
+                "absolute.app/file": "dev-master",
+                "absolute.app/user": "dev-master"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -54,21 +115,25 @@
                 "GPL-3.0"
             ],
             "description": "Absolute/Module/Note",
-            "time": "2018-07-18T18:23:12+00:00"
+            "time": "2018-07-20T10:21:04+00:00"
         },
         {
             "name": "absolute.app/user",
-            "version": "v1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marda/absolute-user.git",
-                "reference": "f77bf621661a7c6c74b0049228e50326205c4b3c"
+                "reference": "2c5ba76b486bbeea2425ec2067bf719d9faefd14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marda/absolute-user/zipball/f77bf621661a7c6c74b0049228e50326205c4b3c",
-                "reference": "f77bf621661a7c6c74b0049228e50326205c4b3c",
+                "url": "https://api.github.com/repos/marda/absolute-user/zipball/2c5ba76b486bbeea2425ec2067bf719d9faefd14",
+                "reference": "2c5ba76b486bbeea2425ec2067bf719d9faefd14",
                 "shasum": ""
+            },
+            "require": {
+                "absolute.app/auth": "dev-master",
+                "absolute.app/core": "dev-master"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
@@ -79,7 +144,7 @@
                 "GPL-3.0"
             ],
             "description": "Absolute/Module/User",
-            "time": "2018-07-18T18:23:20+00:00"
+            "time": "2018-07-20T10:43:45+00:00"
         },
         {
             "name": "latte/latte",
@@ -1645,7 +1710,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "absolute.app/core": 20,
+        "absolute.app/auth": 20,
+        "absolute.app/file": 20,
+        "absolute.app/note": 20,
+        "absolute.app/user": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
