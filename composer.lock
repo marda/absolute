@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "77bf5022513862b14379b1e44119b798",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marda/absolute-auth.git",
-                "reference": "fa8c7d0ee3deb6a1714e06f2f01c87037398219e"
+                "reference": "fceb50ef1881b9d7ee61e484c6dda2d1f87214be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marda/absolute-auth/zipball/fa8c7d0ee3deb6a1714e06f2f01c87037398219e",
-                "reference": "fa8c7d0ee3deb6a1714e06f2f01c87037398219e",
+                "url": "https://api.github.com/repos/marda/absolute-auth/zipball/fceb50ef1881b9d7ee61e484c6dda2d1f87214be",
+                "reference": "fceb50ef1881b9d7ee61e484c6dda2d1f87214be",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "GPL-3.0"
             ],
             "description": "Absolute/Module/Auth",
-            "time": "2018-07-20T11:30:05+00:00"
+            "time": "2018-07-23T11:45:22+00:00"
         },
         {
             "name": "absolute.app/core",
@@ -123,12 +123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marda/absolute-user.git",
-                "reference": "2c5ba76b486bbeea2425ec2067bf719d9faefd14"
+                "reference": "5d42a127aa4fe46984820d5595a3fd06a666f38e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marda/absolute-user/zipball/2c5ba76b486bbeea2425ec2067bf719d9faefd14",
-                "reference": "2c5ba76b486bbeea2425ec2067bf719d9faefd14",
+                "url": "https://api.github.com/repos/marda/absolute-user/zipball/5d42a127aa4fe46984820d5595a3fd06a666f38e",
+                "reference": "5d42a127aa4fe46984820d5595a3fd06a666f38e",
                 "shasum": ""
             },
             "require": {
@@ -144,7 +144,7 @@
                 "GPL-3.0"
             ],
             "description": "Absolute/Module/User",
-            "time": "2018-07-20T10:43:45+00:00"
+            "time": "2018-07-23T21:28:11+00:00"
         },
         {
             "name": "latte/latte",

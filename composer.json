@@ -23,7 +23,6 @@
     "mpdf/mpdf": "^7.1",
     "absolute.app/core": "dev-master",
     "absolute.app/auth": "dev-master",
-    "absolute.app/core": "dev-master",
     "absolute.app/file": "dev-master",
     "absolute.app/note": "dev-master",
     "absolute.app/user": "dev-master"
