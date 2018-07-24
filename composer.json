@@ -26,7 +26,8 @@
     "absolute.app/file": "dev-master",
     "absolute.app/note": "dev-master",
     "absolute.app/user": "dev-master",
-    "absolute.app/team": "dev-master"
+    "absolute.app/team": "dev-master",
+    "absolute.app/label": "dev-master"
   },
   "require-dev": {
     "nette/tester": "^2.0"

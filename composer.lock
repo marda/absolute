@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7569bc5b6f6f5d469ef1ba56b159840",
+    "content-hash": "b5018de4a907d8934a96003e05e064ef",
     "packages": [
         {
             "name": "absolute.app/auth",
@@ -86,6 +86,36 @@
             ],
             "description": "Absolute/Module/File",
             "time": "2018-07-20T10:18:31+00:00"
+        },
+        {
+            "name": "absolute.app/label",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marda/absolute-label.git",
+                "reference": "714d1c8b139710d30567893c29cf58f79970221a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marda/absolute-label/zipball/714d1c8b139710d30567893c29cf58f79970221a",
+                "reference": "714d1c8b139710d30567893c29cf58f79970221a",
+                "shasum": ""
+            },
+            "require": {
+                "absolute.app/auth": "dev-master",
+                "absolute.app/core": "dev-master",
+                "absolute.app/team": "dev-master"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "description": "Absolute/Module/Label",
+            "time": "2018-07-24T13:31:35+00:00"
         },
         {
             "name": "absolute.app/note",
@@ -1747,7 +1777,8 @@
         "absolute.app/file": 20,
         "absolute.app/note": 20,
         "absolute.app/user": 20,
-        "absolute.app/team": 20
+        "absolute.app/team": 20,
+        "absolute.app/label": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
