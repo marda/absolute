@@ -18,11 +18,15 @@ class RouterFactory
 	{
 		$router = new RouteList;
 
-    // MODULE REST API ROUTE
-    $router[] = new Route('api/<module>[/<presenter>][/<action>][/<urlId>]', array(
-      'presenter' => 'Default',
-      'action' => 'default',
-    ));
+        // MODULE REST API ROUTE
+        $router[] = new Route('api/<module>[/<presenter>][/<urlId>][/<action>][/<urlId2>]', array(
+            'presenter' => 'Default',
+            'action' => 'default',
+        ));
+        $router[] = new Route('api/<module>[/<presenter>][/<action>][/<urlId>]', array(
+            'presenter' => 'Default',
+            'action' => 'default',
+        ));
 
 		return $router;
 	}
