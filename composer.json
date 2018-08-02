@@ -33,7 +33,8 @@
     "absolute.app/label": "dev-master",
     "absolute.app/event": "dev-master",
     "absolute.app/group": "dev-master",
-    "absolute.app/menu": "dev-master"
+    "absolute.app/menu": "dev-master",
+    "absolute.app/category": "dev-master",
   },
   "require-dev": {
     "nette/tester": "^2.0"
