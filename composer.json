@@ -35,7 +35,7 @@
     "absolute.app/menu": "dev-master",
     "absolute.app/category": "dev-master",
     "absolute.app/page": "dev-master",
-    "absolute.app/setting": "dev-master"
+    "absolute.app/settings": "dev-master"
   },
   "require-dev": {
     "nette/tester": "^2.0"
